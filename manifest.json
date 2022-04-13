@@ -1,0 +1,21 @@
+{
+  "author": "Chromogen Team",
+  "background": {
+     "persistent": false,
+     "scripts": [ "bundles/background.bundle.js" ]
+  },
+  "content_scripts": [ {
+     "js": [ "bundles/content.bundle.js" ],
+     "matches": [ "\u003Call_urls>" ]
+  } ],
+  "description": "DevTool panel for Chromogen, a UX-driven test generator for Recoil apps.",
+  "devtools_page": "devtools.html",
+  "icons": {
+     "128": "./imgs/chromogen-logo.png"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlqC3+SD/NHXgH/973AbjzHVj+HMxK1GjnEWimnSF3cBWyfyzPIa2o854mQZK7FivrPYCQk0HA/JiMoxANkuvGt8Ao+yHZJR5BO6cLjVk8FhFaFtU62uBzpeN8TQ7i/vwS4Ptj/XzW9Ej8LS2VNO426Kwwc6KJ+yy4s++Xdft/RbrarfI9YlKmkXcBVE+eTAG+gp3YnBmPX1Fo8nJZQpsvnvdXydoOgfcDZHhF1bZnpwXiD+AeOr6GsybMvTQjF4btw9a11E/KOKLnWnqi0wxyLN18NBLBrjAQGa/G8m+qk50EsXeHeK8NrxWLSJDVz8KqBNY7TtKXQUeMu5YlX5iQQIDAQAB",
+  "manifest_version": 2,
+  "name": "chromogen-ext",
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "version": "0.1.0"
+}
